@@ -12,3 +12,10 @@
 [2026-03-02T22:07:16.972+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:07:16.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-03-02T22:07:16.994+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:07:16.993+0000] {dag.py:4180} INFO - Setting next_dagrun for learning_etl_pipeline to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
 [2026-03-02T22:07:17.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/learning_pipeline.py took 0.092 seconds
+[2026-03-02T22:07:47.192+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/learning_pipeline.py
+[2026-03-02T22:07:47.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/learning_pipeline.py for tasks to queue
+[2026-03-02T22:07:47.195+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:07:47.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/learning_pipeline.py
+[2026-03-02T22:07:47.215+0000] {processor.py:925} INFO - DAG(s) 'learning_etl_pipeline' retrieved from /opt/airflow/dags/learning_pipeline.py
+[2026-03-02T22:07:47.239+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:07:47.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-02T22:07:47.260+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:07:47.259+0000] {dag.py:4180} INFO - Setting next_dagrun for learning_etl_pipeline to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-02T22:07:47.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/learning_pipeline.py took 0.087 seconds
